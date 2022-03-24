@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	overflow-x: hidden;
+	background-color: #80ced6;
+}
+
+.main-container {
+	min-height: calc(100vh - 136px);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+img {
+	width: 100%;
+	max-width: 60px;
+	position: relative;
+	display: block;
+	margin: -110px auto 10px auto;
+}
+
+footer {
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+}
